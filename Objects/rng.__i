@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I.\source -I.\source\code -I.\source\header -I.\source\Libraries\CMSIS -I.\source\Libraries\CMSIS\Include -I.\source\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\source\Libraries -I.\source\ADIS16488A -I.\source\UAVCAN --C99
+-I E:\xuavcan\RTE
+-I D:\mlysoft\KEILL\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-I D:\mlysoft\KEILL\ARM\CMSIS\Include
+-D__UVISION_VERSION="516" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVE --C99
+-o .\objects\rng.o --omf_browse .\objects\rng.crf --depend .\objects\rng.d "source\code\rng.c"
